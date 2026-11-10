@@ -1,0 +1,21 @@
+name: smart_medicine_remainder_final
+description: "Smart Medicine Reminder Final Project based on Flutter Lab Manual (Experiments 1 to 10)"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
