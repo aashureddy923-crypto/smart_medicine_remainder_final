@@ -169,7 +169,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
   - `Expanded`, `Flexible`, and `SingleChildScrollView`.
 
 <img width="1366" height="492" alt="image" src="https://github.com/user-attachments/assets/39b4766f-e886-4e7e-9050-67fa4c7c66b1" />
-![Uploading image.png…]()
+<img width="1260" height="640" alt="image" src="https://github.com/user-attachments/assets/5637dea6-014f-46ee-b50a-a03cf07ab499" />
+
 
 
 ---
