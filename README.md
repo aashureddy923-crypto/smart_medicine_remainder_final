@@ -40,6 +40,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - `calculateNextDose()`: Calculates the next dose time using arithmetic modulo operators on a 24-hour clock.
     - `calculateAdherenceRate()`: Determines patient compliance percentage.
     - `getAdherenceGrade()`: Categorizes patient health consistency using `if-else` conditionals.
+    - <img width="1600" height="999" alt="WhatsApp Image 2026-11-10 at 22 31 31" src="https://github.com/user-attachments/assets/e5791a79-909f-4063-bc62-a3a919eb829e" />
+
 
 ---
 
@@ -53,7 +55,9 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - `Stack` widget with `Positioned` to overlay an "URGENT" warning badge on top of high-priority insulin doses.
     - `ElevatedButton` for confirming dose intakes.
 
----
+---<img width="1600" height="991" alt="image" src="https://github.com/user-attachments/assets/67ae7520-5f20-4fdf-bba8-dc33d5b75dc2" />
+
+
 
 ### Experiment 3: Responsive UI Using MediaQuery and LayoutBuilder
 - **Lab Concept:** Multi-screen responsiveness, device dimensions, `Orientation`, `LayoutBuilder`, and `Expanded`.
@@ -64,6 +68,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - Implemented `LayoutBuilder` with a 600px breakpoint:
       - **On Mobile Phones:** Summaries display in a single-column `Column`.
       - **On Tablets / Landscape Mode:** Summaries adapt into a multi-column `Row` wrapped in `Expanded` widgets to avoid `RenderFlex` overflow errors.
+      - <img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/7172dcc9-cb5b-469d-a627-537c112073c2" />
+
 
 ---
 
@@ -73,6 +79,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
   - Configured centralized named routes in `main.dart` (`'/'`, `'/add'`, `'/details'`, `'/responsive'`, `'/tips'`).
   - Built [`lib/screens/medicine_details_screen.dart`](lib/screens/medicine_details_screen.dart), extracting the `Medicine` argument via `ModalRoute.of(context)!.settings.arguments` and returning to the previous screen using `Navigator.pop(context)`.
   - Built [`lib/widgets/app_drawer.dart`](lib/widgets/app_drawer.dart) featuring a branded header and quick links to all application screens using `Navigator.pushReplacementNamed` and `Navigator.pushNamed`.
+  - <img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/62b30f9b-97dc-4058-9a2d-9a517f02f136" />
+
 
 ---
 
@@ -84,6 +92,10 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - Stores the active list of scheduled medications.
     - Provides methods `addMedicine()`, `toggleStatus()`, and `removeMedicine()`.
     - Automatically notifies UI listeners using `notifyListeners()` so badge counts and adherence bars update across every screen without needing manual state passing.
+    - <img width="1600" height="792" alt="image" src="https://github.com/user-attachments/assets/89bfb7e6-7fe2-4609-9d53-0d0627c99345" />
+    
+<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/bf2747b9-f1b3-4bc4-8efe-bb1c360d4f43" />
+
 
 ---
 
@@ -97,6 +109,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - Configured a clean medical color palette using Material 3 (`seedColor: Color(0xFF00796B)`).
     - Defined custom `AppBarTheme`, `CardTheme`, and `ElevatedButtonThemeData`.
     - Added support for both **Light Mode** and **Dark Mode**.
+    - 
+<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/9c1d7882-d86e-45f2-ab6c-170e7dfe096d" />
 
 ---
 
@@ -110,6 +124,8 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - Added `RadioListTile` options for dosage frequencies (Once Daily, Twice Daily).
     - Added `CheckboxListTile` for specifying meal timing (before or after meals).
     - Displayed confirmation and error feedback using `ScaffoldMessenger.of(context).showSnackBar()`.
+    - <img width="1600" height="533" alt="image" src="https://github.com/user-attachments/assets/d0ba80a0-319c-4148-9694-c3086bac1c6f" />
+
 
 ---
 
@@ -149,7 +165,12 @@ Forgetting medications or taking wrong dosages at improper times is a common iss
     - Tested UI rendering of `MedicineCard` using `WidgetTester` and `tester.pumpWidget()`.
     - Verified element presence using `find.text('Atorvastatin')` and `findsOneWidget`.
     - Simulated user tap interactions on icon buttons using `tester.tap()`.
-  - **Debugging:** Verified that no `RenderFlex` overflows occur by utilizing `Expanded`, `Flexible`, and `SingleChildScrollView`.
+  - **Debugging:** Verified that no `RenderFlex` overflows occur by utilizing
+  - `Expanded`, `Flexible`, and `SingleChildScrollView`.
+
+<img width="1366" height="492" alt="image" src="https://github.com/user-attachments/assets/39b4766f-e886-4e7e-9050-67fa4c7c66b1" />
+![Uploading image.png…]()
+
 
 ---
 
